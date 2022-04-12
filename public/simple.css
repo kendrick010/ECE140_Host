@@ -1,0 +1,36 @@
+.title {
+    padding-top: 75px;
+    font-family: arial;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container {
+    font-family: arial;
+    color: rgb(184, 183, 183);
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 250px;       
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+.team-block {
+    width: 250px;
+    height: 75px;
+    font-family: arial;
+    color: white;
+    font-size: 25px;
+    background-color: #e28743;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+}
+
+.team-images {
+    padding-top: 50px;
+}
