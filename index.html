@@ -4,12 +4,22 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title> ECE140 Hosting Demo </title>
-		<link rel="stylesheet" type="text/css" href="public/simple.css">
+		<title> Pep Pets Home </title>
+		<link rel="stylesheet" type="text/css" href="public/index.css">
 	</head>
 
 	<body style="background-color:#283646">
+		<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html"> Home </a>
+			<a href="kvp.html"> Key Value Proposition </a>
+			<a href=""> Revenue Model </a>
+			<a href=""> Contact </a>
+		</div>
+		<h1 class="space"> </h1>
 		<h1 class="title"> Pep Pets </h1>
+		<h1 class="space"> </h1>
 		<div class="container">
 			<hr>
 			<p> Parents want their children to interact and be friends with other children, but giving them phones is daunting.
@@ -28,12 +38,55 @@
 				wellbeing. 
 			</p>
 		</div>
+		<div class="info">
+			<div class ="device-image"> 
+				<img src="public/images/design-concept.jpeg" width="25%" height="25%" />
+			</div>
+			<p>
+				The pocket device has a simple GUI where kids can interact with their digital pet. The device is responsive to 
+				physical activity (walking) in order to encourage kids to go outside. Additionally, we will have a parent-facing 
+				website where parents can register their email with their kids' Pep Pets, so
+				they will be notified of any new friends/connections made with the Pep Pet.
+			</p>
+		</div>
 		<div class="team-block">
 			<p> Meet the Team</p>
 		</div>
 		<div class="team-images" style="text-align: center">
-			<img src="public/images/team_placeholder.jpeg"/>
+			<div class="team-column">
+				<img src="public/images/Alex.jpeg" width="205" height="210" />
+				<h2> Alex Hernandez-perez </h2>
+				<hr width="180px">
+				<p> Junior Computer Engineer </p>
+			</div>
+			<div class="team-column">
+				<img src="public/images/Anthony.PNG" width="205" height="210" />
+				<h2> Anthony Chan </h2>
+				<hr width="180px">
+				<p> Sophomore Electrical Engineer </p>
+			</div>
+			<div class="team-column">
+				<img src="public/images/Kathy.jpeg" width="205" height="210" />
+				<h2> Kathy Li </h2>
+				<hr width="180px">
+				<p> Junior Computer Science </p>
+			</div>
+			<div class="team-column">
+				<img src="public/images/Kendrick.PNG" width="205" height="210" />
+				<h2> Kendrick Nguyen </h2>
+				<hr width="180px">
+				<p> Sophomore Electrical Engineer </p>
+			</div>
 		</div>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "320px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
 	</body>
 
 </html>

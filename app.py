@@ -26,5 +26,5 @@ if __name__ == '__main__':
         # This is the overall compiled app with the given configurations
         app = config.make_wsgi_app()
 
-    server = make_server('0.0.0.0', 8080, app)
+    server = make_server('0.0.0.0', 6543, app)
     server.serve_forever()

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Pep Pets KVP </title>
+    <link rel="stylesheet" type="text/css" href="public/kvp.css">
+</head>
+
+<body style="background-color:#283646">
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"> Home </a>
+        <a href="kvp.html"> Key Value Proposition </a>
+        <a href=""> Revenue Model </a>
+        <a href=""> Contact </a>
+    </div>
+    <h1 class="space1"> </h1>
+    <h1 class="title"> Our Key Value Proposition </h1>
+    <h1 class="space2"> </h1>
+    <div class="container">
+        <hr>
+        <p> Our Pep Pets helps parents who want to teach their children responsibility by giving a fun and engaging alternative to
+        phones or live pets and promote physical activity along with building social skills unlike cell phones that could lead
+        potentially harmful things on the internet.
+        </p>
+    </div>
+    <div class="kvp-image">
+        <img src="public/images/kvp-map.png" width="40%" height="40%" />
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "320px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
