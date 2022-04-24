@@ -9,7 +9,7 @@ from pyramid.response import FileResponse
 
 # FileResponse to return home page HTML
 def home_page(request):
-    path = 'index.html'
+    path = 'home.html'
     return FileResponse(path)
 
 # This line is to tell the interpreter to start execution from here

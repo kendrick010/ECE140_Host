@@ -9,13 +9,14 @@
 </head>
 
 <body style="background-color:#283646">
-    <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <span style="font-size:50px;cursor:pointer" onclick="openNavigation()">&#9776; </span>
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html"> Home </a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavigation()">&times;</a>
+        <a href="home.html"> Home </a>
         <a href="kvp.html"> Key Value Proposition </a>
         <a href=""> Revenue Model </a>
         <a href=""> Contact </a>
+        <script type="text/javascript" src="public/nav.js" defer></script>
     </div>
     <h1 class="space1"> </h1>
     <h1 class="title"> Our Key Value Proposition </h1>
@@ -30,15 +31,6 @@
     <div class="kvp-image">
         <img src="public/images/kvp-map.png" width="40%" height="40%" />
     </div>
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "320px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
 </body>
 
 </html>
