@@ -33,6 +33,7 @@
 
 .kvp-image {
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .empathy-title {
@@ -48,4 +49,10 @@
     justify-content: center;
     margin: auto;
     width: 20%;
+}
+
+.empathy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
