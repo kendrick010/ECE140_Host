@@ -1,0 +1,137 @@
+.space1 {
+    padding-top: 40px;
+}
+
+.space2 {
+    padding-top: 10px;
+}
+
+.features-title {
+    padding: 20px;
+    font-family: arial;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e28743;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+}
+
+.feature1 {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.feature1-image {
+    box-sizing: border-box;
+    padding-left: 120px;
+    float: right;
+}
+
+.feature1-dsc {
+    box-sizing: border-box;
+    float: left;
+}
+
+.feature2 {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.feature2-image {
+    box-sizing: border-box;
+    padding-right: 120px;
+    float: left;
+}
+
+.feature2-dsc {
+    box-sizing: border-box;
+    float: right;
+}
+
+.feature3 {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.feature3-image {
+    box-sizing: border-box;
+    padding-left: 120px;
+    float: right;
+}
+
+.feature3-dsc {
+    box-sizing: border-box;
+    float: left;
+}
+
+.feature4 {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.feature4-image {
+    box-sizing: border-box;
+    padding-right: 120px;
+    float: left;
+}
+
+.feature4-dsc {
+    box-sizing: border-box;
+    float: right;
+}
+
+.feature5 {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.feature5-image {
+    box-sizing: border-box;
+    padding-left: 120px;
+    float: right;
+}
+
+.feature5-dsc {
+    box-sizing: border-box;
+    float: left;
+}
