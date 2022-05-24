@@ -1,0 +1,54 @@
+.space1 {
+    padding-top: 40px;
+}
+
+.space2 {
+    padding-top: 10px;
+}
+
+.revenue-model-title {
+    padding: 20px;
+    font-family: arial;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e28743;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+}
+
+.cost {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+
+.cost-bom {
+    text-align: left;
+    box-sizing: border-box;
+    float: left;
+}
+
+.cost-image {
+    box-sizing: border-box;
+    float: right;
+}
+
+.revenue {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    text-align: left;
+}
