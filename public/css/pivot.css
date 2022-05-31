@@ -1,0 +1,42 @@
+.space1 {
+    padding-top: 40px;
+}
+
+.space2 {
+    padding-top: 10px;
+}
+
+.pivot-title {
+    padding: 20px;
+    font-family: arial;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e28743;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+}
+
+.pivot {
+    font-family: arial;
+    color: rgb(114, 114, 114);
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.pivot-result {
+    font-size: 20px;
+}
+
+.pivot-image {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
